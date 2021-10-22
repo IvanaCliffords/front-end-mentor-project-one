@@ -8,15 +8,17 @@
 body {
     width: 100%;
     background-color: hsl(185, 75%, 39%);
-    justify-items: center;
     display: flex;
-  
+    min-height: 100vh;
+    justify-items: center;
 }
+
 .bg-pattern-top {
     position: absolute;
     right: 50%;
     bottom: 50%;
     z-index: -1;
+    
 }
 
 .bg-pattern-bottom {
@@ -66,7 +68,7 @@ p span {
 
 
 h1 span, 
-h2, p span {
+h3, p span {
     font-weight: 400;
     opacity: 0.5;
 }
